@@ -1,1 +1,11 @@
-
+db;
+use employee;
+db.CreateCollection("employee"{})
+db.employee.insertOne({name:"Anu",age:21,gender:"Female",salary:20000});
+db.employee.insertOne({name:"Vimal",age:23,gender:"male",salary:18000});
+db.employee.insertOne({name:"Gayatri",age:20,gender:"female",salary:25000});
+db.employee.insertOne({name:"Vasanth",age:29,gender:"male",salary:30000});
+db.CreateCollection("Developers"{})
+db.Developers.insertOne({name:"Sathya",age:29,gender:"female",details:{position:"dataanalyst",salary:60000}});
+db.Developers.insertOne({name:"Kavitha",age:23,gender:"female",details:{position:"frontenddeveloper",salary:35000}});
+db.Developers.insertOne({name:"Ravi",age:28,gender:"male",details:{position:"backenddeveloper",salary:30000}});
