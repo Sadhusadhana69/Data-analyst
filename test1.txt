@@ -1,4 +1,6 @@
 created test1.txt 
 topics of data analyst
-first topic is to cover excell
+first topic is to cover 
+second topic to cover is python
+
 
