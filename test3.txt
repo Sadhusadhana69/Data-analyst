@@ -1,3 +1,4 @@
 this is my third txt file
 this is for my practice
 this file contains details about data analyst
+introduction to sql
