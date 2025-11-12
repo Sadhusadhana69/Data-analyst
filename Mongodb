@@ -9,3 +9,5 @@ db.CreateCollection("Developers"{})
 db.Developers.insertOne({name:"Sathya",age:29,gender:"female",details:{position:"dataanalyst",salary:60000}});
 db.Developers.insertOne({name:"Kavitha",age:23,gender:"female",details:{position:"frontenddeveloper",salary:35000}});
 db.Developers.insertOne({name:"Ravi",age:28,gender:"male",details:{position:"backenddeveloper",salary:30000}});
+db.CreateCollection("admin"{})
+db.admin.insertMany([{name:"Charu",age:25,gender:"Female",salary:25000},{name:"Dharma",age:31,gender:"female",salary:22000},{name:Rajesh,age:22,gender:"male",salary:29000}])
